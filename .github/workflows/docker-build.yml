@@ -11,7 +11,7 @@ permissions:
 
 env:
   SOURCE_REPO: trefeon/freebuff-proxy
-  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/sengkuni-dev/freebuff-proxy
 
 jobs:
   check-and-build:
