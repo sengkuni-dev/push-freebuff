@@ -36,7 +36,6 @@ jobs:
         working-directory: ./source-repo
         run: |
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
-          echo "Version: $(git log -1 --format='%h %s')" >> $GITHUB_OUTPUT
 
       # Restore cached SHA from previous run
       - name: Restore cached SHA
